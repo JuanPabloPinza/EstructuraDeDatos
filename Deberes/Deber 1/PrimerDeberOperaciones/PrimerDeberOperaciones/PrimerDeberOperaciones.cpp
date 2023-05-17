@@ -7,13 +7,12 @@ Enunciado General : Deber 1 */
 
 #include <iostream>
 #include "Fraccion.h"
-using namespace std;
 
 int main()
 {
 	Fraccion fraccion1, fraccion2, fraccionR;
 	float resultadoFinal;
-	cout << "Bienvenido al Programa" << endl;
+	std::cout << "Bienvenido al Programa" << std::endl;
 	fraccion1.setNumerador(3);
 	fraccion1.setDenominador(4);
 	fraccion2.setNumerador(7);
@@ -21,7 +20,9 @@ int main()
 	resultadoFinal= fraccionR.proceso(fraccion1.getNumerador(), fraccion1.getDenominador(),
 		fraccion2.getNumerador(), fraccion2.getDenominador());
 
-	cout << "El resultado es: " << resultadoFinal;
+	std::cout << "El numerador tiene el valor de: " << fraccionR.getNumerador()<<std::endl;
+	std::cout << "El denominador tiene el valor de: " << fraccionR.getDenominador()<<std::endl;
+	std::cout << "El resultado es: " << resultadoFinal;
 
 
 

@@ -103,7 +103,9 @@ bool Fraccion::evitarIndeterminacion(float denominador)
 
 float Fraccion::proceso(float numerador1, float denominador1, float numerador2, float denominador2) {
 	float operacionesMatematicas;
-	operacionesMatematicas = (numerador1 * denominador2) + (numerador2 * denominador1) / (denominador1 + denominador2);
+	denominador = (denominador1 + denominador2);
+	numerador = (numerador1 * denominador2) + (numerador2 * denominador1);
+	operacionesMatematicas =  numerador/denominador;
 	return operacionesMatematicas;
 	
 }
