@@ -1,3 +1,11 @@
+/*******************************
+ UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
+ Asignatura: Estructuras de Datos
+ Nombre: Juan Pablo Pinza Armijos
+ Fecha de creacion: 30/05/23 17:15
+ Fecha de modificacion: 31/05/23 8:00
+ Enunciado General: Deber 8
+ ********************************/
 #include <iostream>
 #include "Lista.h"
 
