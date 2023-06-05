@@ -10,7 +10,7 @@
 #include "Lista.h"
 
 int main() {
-    Lista<int> lista,listaImpar,listaImpar2;
+    Lista<int> lista,listaImpar,listaImpar2,listaInge;
     
     std::cout<<"Ordenamiento en caso de una lista par: "<<std::endl;
 	lista.insertar(1);
@@ -63,6 +63,24 @@ int main() {
     listaImpar2.ordenNuevoMatriz();
     std::cout<<"Lista Ordenada:"<<std::endl;
     listaImpar2.imprimirLista();
+    
+    
+    std::cout<<"\n\n*****************************"<<std::endl;
+    std::cout<<"\n\nLISTA PEDIDA POR EL INGE: "<<std::endl;
+    listaInge.insertar(10);
+    listaInge.insertar(20);
+    listaInge.insertar(30);
+    listaInge.insertar(50);
+    listaInge.insertar(80);
+    listaInge.insertar(10);
+    listaInge.insertar(35);
+    listaInge.insertar(70);
+    listaInge.insertar(49);
+    std::cout<<"Lista Original:"<<std::endl;
+    listaInge.imprimirLista();
+    std::cout<<"Lista Ordenada:"<<std::endl;
+    listaInge.ordenNuevoMatriz();
+    listaInge.imprimirLista();
     
     
     
