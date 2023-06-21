@@ -1,0 +1,13 @@
+﻿  Deber6_Recursividad.cpp
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\OpMatrices.h(58,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\OpMatrices.h(56,37): message : while compiling class template member function 'void OpMatrices<int>::generarMatriz(void)'
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\OpMatrices.h(78,15): message : see reference to function template instantiation 'void OpMatrices<int>::generarMatriz(void)' being compiled
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\OpMatrices.h(75,62): message : while compiling class template member function 'Matriz<int> OpMatrices<int>::inicializarMatriz(Matriz<int>)'
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\Deber6_Recursividad.cpp(15,13): message : see reference to function template instantiation 'Matriz<int> OpMatrices<int>::inicializarMatriz(Matriz<int>)' being compiled
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\Deber6_Recursividad.cpp(9,18): message : see reference to class template instantiation 'OpMatrices<int>' being compiled
+C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\Deber6_Recursividad\OpMatrices.h(64,69): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Deber6_Recursividad.vcxproj -> C:\Users\JuanPa\Documents\Proyectos\EstructuraDeDatos\EnProceso\DEBER6\D6V1.0.1\Deber6_Recursividad\x64\Debug\Deber6_Recursividad.exe

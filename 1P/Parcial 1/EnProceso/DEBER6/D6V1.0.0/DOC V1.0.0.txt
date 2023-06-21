@@ -1,0 +1,3 @@
+*Creación de Matrices tipo Interfaz
+*Creación de una clase operaciones (Permite hacer una copia de Matriz<T> y con ello operar la matriz)
+*Creación de una función inicializar matriz (Setea, encera, imprime Y DEVUELVE la matriz de tipo Matriz<T>)
