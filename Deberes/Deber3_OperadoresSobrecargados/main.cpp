@@ -1,3 +1,12 @@
+/***************************
+ UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
+ Asignatura: Estructuras de Datos
+ Nombre: Juan Pablo Pinza Armijos
+ Fecha de creacion: 16/05/23 21:39
+ Fecha de modificacion: 19/05/23 10:30
+ Enunciado General:Deber3 Operadores Sobrecargados
+ ****************************/
+
 #include <iostream>
 /*******************************************************************************
  UNIVERSIDAD DE LAS FUERZAS ARMADAS (ESPE)
@@ -12,10 +21,9 @@
 
 //Voy a crear los operadores sobrecargados
 /*
++ -> Para poder sumar directamente.
 << -> Para poder imprimir datos de cierta clase.
 - -> Para poder restar directamente entre clases fracciones los valores que este tenga.
-+ -> Para poder sumar directamente.
-== -> Para comprobar si dos números son iguales o no dentro de una clase.
 Planificación:
 Creamos una CLASE Operacion (.h y .cpp)
 Creamos una Interfaz Operacion.
@@ -35,6 +43,8 @@ int main() {
 	std::cout <<"Ingrese el segundo flotante: ";
 	std::cin >> float2;
 	Operacion obj1(float1,float2);
+	
+	/*
 		
 	std::cout <<"OBJETO 2"<<std::endl;
 	std::cout <<"Impresion de Sobrecarga +"<<std::endl;
@@ -47,7 +57,7 @@ int main() {
 	std::cout <<"USO DE OPERADOR SOBRECARGADO +"<<std::endl;
 	std::cout << obj1.getNum1() << " + " << obj1.getNum2() << " + " << obj2.getNum1() << " + " << obj2.getNum2()<< " = " << obj1 + obj2 << std::endl;	
 	
-	
+*/	
 	
 	return 0;
 }

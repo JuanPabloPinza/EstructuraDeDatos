@@ -11,11 +11,12 @@ public:
 	void encerarMatriz();
 	void generarMatriz();
 	void imprimirMatriz();
+	void imprimirMatriz(Matriz<T> matrizGeneral);
 	void setMatrizOp(Matriz<T>&);
 	Matriz<T> getMatrizOp();
 	Matriz<T> inicializarMatriz(Matriz<T>);
-	Matriz<T> sumarMatrices(Matriz<T> matriz1, Matriz<T> matriz2);
-	
+	Matriz<T> sumarMatrices(Matriz<T>, Matriz<T>);
+
 private:
 	Matriz<T> matrizOp;
 };
@@ -83,12 +84,20 @@ Matriz<T> OpMatrices<T>::inicializarMatriz(Matriz<T> matriz) {
 template <typename T>
 Matriz<T> OpMatrices<T>::sumarMatrices(Matriz<T> matriz1, Matriz<T> matriz2) {
 	Matriz<T> matrizR(matriz1.getDim());
-	matrizR = inicializarMatriz(matrizR);
-	for (int i = 0; i < matrizR.getDim(); i++) {
-		for (int j = 0; j < matrizR.getDim(); j++) {
+	//Enceramos la matriz y asignamos matrizOp global a la matrizR.
+
+	setMatrizOp(matrizR);
+	encerarMatriz();
+	imprimirMatriz();
+
+	//Vamos a sumar los valores de i y j de cada matriz y asignarla a nuestra matriz.
+
+	for (int i = 0; i < matriz1.getDim(); i++) {
+		for (int j = 0; j < matriz1.getDim(); j++) {
 			matrizR.getPuntMatriz()[i][j] = matriz1.getPuntMatriz()[i][j] + matriz2.getPuntMatriz()[i][j];
 		}
 	}
+	imprimirMatriz();
 
 	return matrizR;
 }
