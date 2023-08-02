@@ -16,6 +16,8 @@ int main(){
 #include <conio.h> // Para getch()
 #include "Validaciones.h"
 #include "OperacionesPersona.h"
+#include "ListaDobleCircular.cpp"
+
 
 void mostrarMenu(int opcionSeleccionada) {
     system("cls"); // Limpia la pantalla (para Windows)
@@ -33,10 +35,10 @@ void mostrarMenu(int opcionSeleccionada) {
 int main() {
 
     //INICIALIZACIÓN DE LISTA DOBLEMENTE CIRCULAR:
-    Nodo<Persona>* nodo;
-    ListaDobleCircular<Persona>* personasRegistradas = new ListaDobleCircular<Persona>();
-    personasRegistradas = OperacionesPersona::cargarDatosDeArchivoEnLista(personasRegistradas);    
-    std::string cedula;
+      Nodo<Persona>* nodo;
+      ListaDobleCircular<Persona>* personasRegistradas = new ListaDobleCircular<Persona>();
+      personasRegistradas = OperacionesPersona::cargarDatosDeArchivoEnLista(personasRegistradas);    
+      std::string cedula;
 
     int opcionSeleccionada = 1;
 

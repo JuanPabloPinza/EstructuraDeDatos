@@ -115,7 +115,7 @@ void ListaDobleCircular<T>::imprimirReversa(){
 }
 
 template<typename T>
-Nodo<T>* ListaDoble<T>::buscar(std::string cedula) {
+Nodo<T>* ListaDobleCircular<T>::buscar(std::string cedula) {
     Nodo<T>* actual = primero;
     
     while (actual != nullptr) {

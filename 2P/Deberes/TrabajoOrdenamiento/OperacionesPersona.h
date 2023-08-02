@@ -10,6 +10,6 @@ class OperacionesPersona
     static void guardarPersonaEnArchivo(Persona persona);
 
     template <typename T>
-    static ListaDobleCircular<T>* cargarDatosDeArchivoEnLista(ListaDobleCircular<T>* personasRegistradas);
+    static ListaDobleCircular<T>* cargarDatosDeArchivoEnLista(ListaDobleCircular<T>*);
 
 };
