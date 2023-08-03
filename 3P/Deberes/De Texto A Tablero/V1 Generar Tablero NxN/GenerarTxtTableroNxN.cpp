@@ -1,13 +1,19 @@
 #include "GenerarTxtTableroNxN.h"
 #include <iostream>
+#include <fstream>
 //FALTA VALIDAR
 //0 Negro, 1 Blanco
-void GenerarTxtTableroNxN::generarTxtTableroNxn() {
 
+void GenerarTxtTableroNxN::generarTxtTableroNxn() {
+	
+	
 	std::cout<<"Ingrese la dimension del tablero de ajedrez: (Min 2, Max 8)";
 	int dim,cuadros;
 	std::cin>>dim;
 	cuadros = dim*dim;
+	
+	
+	
 	for(int i = 1; i<=cuadros; i++) {
 		//Para Tablas impares
 		if(dim%2!=0) {
