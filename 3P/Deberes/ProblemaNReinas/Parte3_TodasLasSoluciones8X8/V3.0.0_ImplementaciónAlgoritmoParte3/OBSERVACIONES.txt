@@ -1,0 +1,6 @@
+LO QUE VAMOS A HACER EN LA PARTE 3:
+
+1. Tenemos que tener en claro que ahora el tablero es 8x8 Fijo.
+2. El usuario va a ingresar cuál es el número de reinas que quiere usar, más no la solución, van a ir desde 1 reina hasta 8 reinas.
+2. Vamos a crear una clase que se llame algo cómo SolucionReinas, este archivo nos va a devolver las posibles soluciones en un archivo de texto llamado "soluciones.txt"
+3. Vamos a graficar solo la primera solución de todas las posibles soluciones que pueden existir, y de ahí vamos a reflejar en consola todas las otras posibles soluciones, obviamente para esto tenemos que del archivo de texto obviar el texto de SOLUCION 1: , también vamos a tener en cuenta que 0 son los negros y 1 los blancos, y en R van a ir la reina.
