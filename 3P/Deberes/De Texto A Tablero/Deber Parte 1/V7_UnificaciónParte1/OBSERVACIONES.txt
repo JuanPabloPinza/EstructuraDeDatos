@@ -1,0 +1,7 @@
+1. FALTA VALIDAR
+
+
+//CAMBIOS IMPORTANTES:
+
+> Se unificó las clases
+> NO SE PUEDE CREAR UN menú simple por números para poder acceder (NO ES POSIBLE, SE HAY UN BUG CON RESPECTO A LA LIBRERÍA)
