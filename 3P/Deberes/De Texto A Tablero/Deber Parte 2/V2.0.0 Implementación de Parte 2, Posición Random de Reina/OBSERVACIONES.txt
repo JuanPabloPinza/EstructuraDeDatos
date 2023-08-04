@@ -1,0 +1,7 @@
+Lo que vamos a hacer en la parte dos, es tomar el mismo tablero de ajedrez que tenemos, 
+1. en base a la dimensión vamos a contar todos los posibles espacios que hay: EJ: Dimensión 5 -> Casillas totales 25, en base a ese número vamos a con una función a escoger un número aleatorio en el rango del 1-25 (0-24) y 
+2. ahí vamos a colocar una reina.
+3. Validar... De igual forma la parte 1
+
+
+//CAMBIOS IMPORTANTES:
